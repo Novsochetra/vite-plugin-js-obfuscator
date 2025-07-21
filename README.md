@@ -5,7 +5,7 @@ A simple Vite plugin that obfuscates final JS bundles using [javascript-obfuscat
 ## Installation
 
 ```bash
-npm install vite-plugin-custom-obfuscator --save-dev
+npm install vite-plugin-js-obfuscator --save-dev
 ```
 
 ## Usage
