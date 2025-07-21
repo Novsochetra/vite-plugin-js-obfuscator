@@ -5,14 +5,14 @@ A simple Vite plugin that obfuscates final JS bundles using [javascript-obfuscat
 ## Installation
 
 ```bash
-npm install vite-plugin-js-obfuscator --save-dev
+npm install @sochetra-nov/vite-plugin-js-obfuscator --save-dev
 ```
 
 ## Usage
 
 ```js
 // vite.config.js
-import viteJsObfuscator from "vite-plugin-js-obfuscator";
+import viteJsObfuscator from "@sochetra-nov/vite-plugin-js-obfuscator";
 
 export default {
   plugins: [
@@ -35,7 +35,7 @@ import viteJsObfuscator, {
   highObfuscationLowPerformance,
   mediumObfuscationOptimalPerformance,
   lowObfuscationHighPerformanceConfig,
-} from "vite-plugin-js-obfuscator";
+} from "@sochetra-nov/vite-plugin-js-obfuscator";
 
 export default {
   plugins: [viteJsObfuscator(lowObfuscationHighPerformanceConfig)],
