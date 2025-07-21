@@ -102,7 +102,7 @@ export const lowObfuscationHighPerformanceConfig = {
   unicodeEscapeSequence: false,
 };
 
-export function customObfuscatorPlugin(options = defaultOptions) {
+export default function customObfuscatorPlugin(options = defaultOptions) {
   return {
     name: "vite-js-obfuscator",
     apply: "build",
