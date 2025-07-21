@@ -26,3 +26,18 @@ export default {
   ],
 };
 ```
+
+### Preset Config
+
+```js
+// vite.config.js
+import viteJsObfuscator, {
+  highObfuscationLowPerformance,
+  mediumObfuscationOptimalPerformance,
+  lowObfuscationHighPerformanceConfig,
+} from "vite-plugin-js-obfuscator";
+
+export default {
+  plugins: [viteJsObfuscator(lowObfuscationHighPerformanceConfig)],
+};
+```
