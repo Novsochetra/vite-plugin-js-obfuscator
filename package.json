@@ -1,6 +1,6 @@
 {
   "name": "@sochetra-nov/vite-plugin-js-obfuscator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vite plugin to obfuscate JavaScript output using javascript-obfuscator.",
   "main": "index.js",
   "devDependencies": {
