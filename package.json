@@ -1,0 +1,33 @@
+{
+  "name": "vite-plugin-js-obfuscator",
+  "version": "1.0.0",
+  "description": "A Vite plugin to obfuscate JavaScript output using javascript-obfuscator.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novsochetra/vite-plugin-js-obfuscator.git"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "obfuscation",
+    "javascript-obfuscator",
+    "security"
+  ],
+  "author": "Sochetra NOV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Novsochetra/vite-plugin-js-obfuscator/issues"
+  },
+  "homepage": "https://github.com/Novsochetra/vite-plugin-js-obfuscator#readme",
+  "peerDependencies": {
+    "vite": "^4 || ^5"
+  },
+  "dependencies": {
+    "javascript-obfuscator": "^4.0.0"
+  }
+}
